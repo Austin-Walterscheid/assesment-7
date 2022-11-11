@@ -19,4 +19,4 @@ insert 25.3 μs
 append 128.6 μs
 
 
-The smaller the array the faster it runs. Also I noticed that the insert speed speeds up faster than the append speed as the arrays get smaller.
+The smaller the array the faster it runs. Also I noticed that the insert speed speeds up faster than the append speed as the arrays get smaller. The function that uses .unshift has a worse runtime because when the function is run the .unshift function has to move all the numbers in the array over one.
